@@ -1,4 +1,4 @@
-# 6-DOF Robotic Kinematics Masterclass
+# 6-DOF Robotic Kinematics
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -60,13 +60,12 @@ To run these interactive notebooks locally, clone the repository and install the
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/6dof-kinematics-masterclass.git](https://github.com/yourusername/6dof-kinematics-masterclass.git)
-cd 6dof-kinematics-masterclass
+git clone https://github.com/muntakim181/arm-kinematics-notebook.git
+cd arm-kinematics-notebook.git
 
 # Create a virtual environment (optional but recommended)
 $ conda create --name <env> --file requirements.txt
 conda activate <env> 
-
 
 # Launch Jupyter Lab
 jupyter lab
