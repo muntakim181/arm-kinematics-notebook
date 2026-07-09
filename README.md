@@ -69,3 +69,11 @@ conda activate <env>
 
 # Launch Jupyter Lab
 jupyter lab
+```
+
+Author
+Muntakim Ali Rashfi
+
+Robotics Enthusiast & Data Science Student
+
+Focused on control systems, physics simulations, Reinforcement Learning and AI integration for advanced manipulators.
