@@ -59,15 +59,49 @@ This makes the repository highly applicable for custom-machined or 3D-printed ro
 To run these interactive notebooks locally, clone the repository and install the required Python packages.
 
 ```bash
+
+## Create a Project Folder
+Navigate to the directory where you want your project and create a new folder:
+
+mkdir my-project
+cd my-project
+```
+```bash
 # Clone the repository
 git clone https://github.com/muntakim181/arm-kinematics-notebook.git
 cd arm-kinematics-notebook.git
+```
+## Create the Virtual Environment
+Run the standard Python module `venv`. It is recommended to name the environment folder `.venv` so that it stays hidden in your workspace:
+```bash
+python -m venv .venv
+```
 
+### macOS / Linux
+```bash
+source .venv/bin/activate
+```
+
+### Windows (Command Prompt)
+```cmd
+.venv\Scripts\activate.bat
+```
+
+## 3. Install the Dependencies
+Run the installation command using the `-r` (requirement) flag:
+```bash
+pip install -r requirements.txt
+```
+
+### Or For Conda Users
+```bash
 # Create a virtual environment (optional but recommended)
 $ conda create --name <env> --file requirements.txt
 conda activate <env> 
+```
 
 # Launch Jupyter Lab
+```bash
 jupyter lab
 ```
 
