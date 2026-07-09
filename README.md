@@ -87,7 +87,7 @@ source .venv/bin/activate
 .venv\Scripts\activate.bat
 ```
 
-## 3. Install the Dependencies
+## Install the Dependencies
 Run the installation command using the `-r` (requirement) flag:
 ```bash
 pip install -r requirements.txt
