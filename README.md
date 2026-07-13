@@ -10,7 +10,7 @@ This repository serves as both a robust mathematical foundation for custom hardw
 
 ## Table of Contents
 - [Overview](#overview)
-- [The Curriculum (Notebooks)](#the-curriculum-notebooks)
+- [The Curriculum (Notebooks)](#the-curriculum-notebook)
 - [Core Engineering Features](#core-engineering-features)
 - [Hardware Architecture Assumptions](#hardware-architecture-assumptions)
 - [Installation & Setup](#installation--setup)
@@ -27,7 +27,7 @@ Also For interactive GUI WebApp visit [Here](https://arm-kinematics-webapp.verce
 
 ---
 
-## The Curriculum (Notebooks)
+## The Curriculum (Notebook)
 
 The notebooks in this repository are designed to be run sequentially, taking you from basic geometry to state-of-the-art path planning.
 
